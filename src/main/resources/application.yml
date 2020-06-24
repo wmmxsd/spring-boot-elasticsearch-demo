@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+
+logging:
+#  file:
+#    name: Sys.log
+  level:
+    root: debug
